@@ -1,0 +1,52 @@
+body {
+  background-image: url(../images/black.jpg);
+}
+.social-share>li{
+  display: inline-block;
+  padding: 5px;
+}
+.social-share>li>a>i:hover{
+  font-size:larger;
+  color: #000000;
+}
+#black>a>i{
+  font-size:larger;
+  color: #000000;
+}
+.top-bar{
+  background-color: #eeeeee;
+  border-bottom: groove;
+  border-color: #269abc;
+}
+.search-form{
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
+}
+.margin-text{
+  margin-top:50px;
+}
+.navbar-primary {
+  background-color: #d0e9c6;
+  border-color: #080808
+}
+.navbar-gog {
+  color: #fff;
+
+}
+
+.brand{
+  font-size: 50px;
+  padding: 6px;
+}
+.font-style>li>a{
+  font-style: oblique;
+  font-weight:bold;
+  font-size:large;
+}
+.marginH1{
+  margin-top: -15px;
+}
+.text-black{
+  color: #000000;
+}

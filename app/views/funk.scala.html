@@ -1,0 +1,64 @@
+@(activepage:String)
+<header>
+  <div class="top-bar navbar-fixed-top">
+    <div class="container">
+      <div class="pull-left">
+        <ul class="social-share">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-vk"></i></a></li>
+          <li><a href="#"><i class="fa fa-android"></i></a></li>
+          <li><a href="#"><i class="fa fa-skype"></i></a></li>
+          <li><a href="#"><i class="fa fa-windows"></i></a></li>
+          <li><a href="#"><i class="fa fa-google"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-html5"></i></a></li>
+          <li><a href="#"><i class="fa fa-apple"></i></a></li>
+          <li><a href="#"><i class="fa fa-css3"></i></a></li>
+          <li><a href="#"><i class="fa fa-linux"></i></a></li>
+          <li><a href="#"><i class="fa fa-dropbox"></i></a></li>
+          <li><a href="#"><i class="fa fa-location-arrow"></i></a></li>
+        </ul>
+      </div>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <a> <span class="fa fa-search"></span></a>
+      </form>
+    </div>
+  </div>
+</header>
+<br>
+<br>
+<br>
+<div><h1 class="text-primary text-center">Set Up Github System..</h1></div>
+<div class="container">
+  <div class="row">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle btn btn-info" data-toggle="collapse"
+        data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand col1">git</div>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="@if(activepage=="index"){active}"><a id="bt" class="col" href="@routes.Application.index()"><i><span class="fa fa-home "></span> About
+            Github</i></a></li>
+          <li class="@if(activepage=="instal1"){active}"><a class="col" href="@routes.Application.instal1()"><i><span class="fa fa-cogs "></span> Instal Git</i></a>
+          </li>
+          <li class="@if(activepage=="sign1"){active}" ><a class="col" href="@routes.Application.sign1()"><i><span class="fa fa-sign-in "></span> Sign Up</i></a>
+          </li>
+          <li class="@if(activepage=="setup1"){active} "><a class="col" href="@routes.Application.setup1()"><i><span class="fa fa-wrench "></span> Setup on Idea</i></a></li>
+          <li class="@if(activepage=="triger1"){active} "><a class="col" href="@routes.Application.triger1()"><i><span class="fa fa-eye "></span> Triggers</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
